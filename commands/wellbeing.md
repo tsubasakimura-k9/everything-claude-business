@@ -1,20 +1,20 @@
-# /wellbeing [company context or wellbeing challenge]
+# /wellbeing [企業コンテキストまたはウェルビーイング課題]
 
-## Description
+## 説明
 
-Designs a comprehensive employee wellbeing strategy that maximizes happiness (幸福度) and strengthens company loyalty (ロイヤリティ). Produces a structured assessment across five wellbeing dimensions, prioritized interventions with ROI projections, and an implementation roadmap — then stress-tests the strategy through a devil's advocate review.
+社員の幸福度を最大化し、会社へのロイヤリティを強化するための包括的な従業員ウェルビーイング戦略を設計する。5つのウェルビーイング次元にわたる構造化されたアセスメント、ROI予測付きの優先施策、実行ロードマップを作成し、デビルズアドボケート・レビューで戦略をストレステストする。
 
-## Execution Flow
+## 実行フロー
 
-1. **Input**: Company context (size, industry, current challenges) + specific wellbeing goals or pain points
-2. **Scope**: Clarify organization profile, existing programs, available data, and what decisions this informs
-3. **Agent 1**: **wellbeing-strategist** — assesses five wellbeing dimensions, identifies priority gaps, designs interventions with ROI projections, creates measurement framework
-4. **Agent 2** (optional, parallel): **customer-profiler** — profiles employee segments as "internal customers" to deepen persona-specific needs analysis
-5. **Synthesize**: Cross-reference wellbeing gaps with employee segment needs to ensure interventions match the people who need them most
-6. **Devil's Advocate** (MANDATORY): Challenges intervention assumptions, questions ROI estimates, flags cultural blind spots, identifies implementation risks
-7. **Output**: Structured Wellbeing Assessment Report (see template below)
+1. **インプット**: 企業コンテキスト（規模、業種、現在の課題）+ 具体的なウェルビーイング目標・課題
+2. **スコープ定義**: 組織プロフィール、既存施策、利用可能データ、意思決定への影響を明確にする
+3. **エージェント1**: **wellbeing-strategist** -- 5次元ウェルビーイングを評価、優先課題を特定、ROI予測付き施策を設計、測定フレームワークを作成
+4. **エージェント2**（任意、並行実行）: **customer-profiler** -- 社員を「社内顧客」としてプロファイリングし、ペルソナ別のニーズ分析を深掘り
+5. **統合**: ウェルビーイングギャップと社員セグメントのニーズをクロスリファレンスし、施策が最も必要な人に確実に届くようにする
+6. **デビルズアドボケート**（必須）: 施策の前提を批判、ROI見積もりを検証、文化的盲点を指摘、実装リスクを特定
+7. **アウトプット**: 構造化されたウェルビーイング評価レポート（以下のテンプレート参照）
 
-## Usage Examples
+## 使用例
 
 ```
 /wellbeing 300人規模のSaaS企業、エンジニアの離職率が35%で業界平均の2倍以上
@@ -25,171 +25,171 @@ Designs a comprehensive employee wellbeing strategy that maximizes happiness (�
 ```
 
 ```
-/wellbeing 50-person startup experiencing burnout across engineering and sales teams, no existing wellbeing programs
+/wellbeing 50人のスタートアップ、エンジニアと営業の両チームでバーンアウトが発生中、既存のウェルビーイング施策なし
 ```
 
 ```
 /wellbeing リモートワーク中心の100人企業、社員の帰属意識とエンゲージメントが低下している
 ```
 
-## Error Handling
+## エラーハンドリング
 
-- **Input too vague** (e.g., "社員の幸福度を上げたい"): Ask for specifics — Company size? Industry? What triggered this concern? Any data available (turnover rate, survey results)?
-- **No data provided**: Proceed with industry benchmarks marked as `[A]` (Assumption). Explicitly flag data gaps and recommend data collection as Step 1.
-- **Devil's advocate finds CRITICAL issues**: Surface them in Executive Summary as `[FATAL FLAW]` before any other analysis. Common fatal flaws: legal compliance violations (overtime limits), privacy risks, toxic leadership not addressed.
-- **Conflicting priorities**: Present trade-offs explicitly. Do not pretend everything can be done at once. Time-box and sequence.
-- **Budget is zero**: Design zero-cost interventions first (management practices, process changes, cultural rituals). Many high-impact interventions cost nothing.
+- **入力が曖昧な場合**（例：「社員の幸福度を上げたい」）: 詳細を確認する -- 企業規模は？業種は？何がきっかけ？データは？（離職率、サーベイ結果）
+- **データ未提供の場合**: 業界ベンチマークを `[A]`（仮定）として使用して進める。データギャップを明示し、ステップ1としてデータ収集を推奨する。
+- **デビルズアドボケートがCRITICAL（重大）問題を発見した場合**: エグゼクティブサマリーに `[致命的欠陥]` として他の分析より前に記載する。よくある致命的欠陥：法令遵守違反（残業上限）、プライバシーリスク、有害なリーダーシップの未対処。
+- **優先順位が競合する場合**: トレードオフを明示的に提示する。すべてを同時にできるふりをしない。タイムボックスを設定し順序付ける。
+- **予算がゼロの場合**: まずゼロコストの施策を設計する（マネジメント手法、プロセス変更、文化的儀式）。高インパクトな施策の多くはコストゼロで実施可能。
 
-## Related Commands
+## 関連コマンド
 
-- **Before this**: `/research` (if entering a new market where employer brand and talent acquisition are key)
-- **After this**: `/validate` (test specific wellbeing hypotheses with employee experiments)
-- **After this**: `/experiment` (design a detailed pilot for a specific wellbeing intervention)
-- **If wellbeing program failing**: `/pivot` (reassess approach based on measurement data)
-- **If evidence shows no impact**: `/kill` (decide whether to continue or stop a specific program)
+- **このコマンドの前に**: `/research`（雇用ブランドと人材獲得が重要な新市場に参入する場合）
+- **このコマンドの後に**: `/validate`（社員実験で特定のウェルビーイング仮説をテスト）
+- **このコマンドの後に**: `/experiment`（特定のウェルビーイング施策の詳細なパイロットを設計）
+- **施策が失敗している場合**: `/pivot`（測定データに基づいてアプローチを再評価）
+- **効果のエビデンスがない場合**: `/kill`（特定のプログラムを継続するか中止するかを決定）
 
-## Agents
+## エージェント
 
-- **wellbeing-strategist**: Assesses current state, designs interventions, projects ROI, creates measurement framework
-- **customer-profiler** (optional): Treats employees as internal customers — builds segment personas for targeted interventions
-- **devil-advocate** (final pass): Challenges assumptions, questions optimistic ROI projections, flags implementation risks and cultural blind spots
+- **wellbeing-strategist**: 現状評価、施策設計、ROI予測、測定フレームワーク作成
+- **customer-profiler**（任意）: 社員を社内顧客として扱い、ターゲットを絞った施策のためのセグメントペルソナを構築
+- **devil-advocate**（最終パス）: 前提を批判、楽観的なROI予測を検証、実装リスクと文化的盲点を指摘
 
-## Skills & Templates Referenced
+## 参照スキル＆テンプレート
 
-- `employee-wellbeing` skill (five-dimension framework, PERMA model, anti-patterns, Japan context)
-- `lean-startup` skill (experiment-first mindset for piloting interventions)
-- `validation-patterns` skill (for designing wellbeing experiment pilots)
-- `unit-economics` skill (for ROI calculation methodology)
-- `wellbeing-assessment` template (structured output format)
+- `employee-wellbeing` スキル（5次元フレームワーク、PERMAモデル、アンチパターン、日本コンテキスト）
+- `lean-startup` スキル（施策パイロットにおける実験ファーストの思考）
+- `validation-patterns` スキル（ウェルビーイング実験パイロットの設計用）
+- `unit-economics` スキル（ROI計算方法論）
+- `wellbeing-assessment` テンプレート（構造化された出力フォーマット）
 
-## Workflow
+## ワークフロー
 
-### Step 1: Context Gathering (コンテキスト収集)
-- Clarify company profile: size, industry, stage, structure
-- Identify available data: engagement surveys, turnover data, overtime records, health check results
-- Understand triggers: Why now? What pain is being felt?
-- Define constraints: Budget, timeline, leadership commitment level
-- Set goals: What does success look like in 6 months? 12 months?
+### ステップ1：コンテキスト収集
+- 企業プロフィールを確認：規模、業種、ステージ、組織構造
+- 利用可能なデータを特定：エンゲージメントサーベイ、離職データ、残業記録、健康診断結果
+- トリガーを理解：なぜ今なのか？どんな痛みがあるのか？
+- 制約条件を定義：予算、タイムライン、経営層のコミットメントレベル
+- 目標を設定：6ヶ月後の成功とは？12ヶ月後は？
 
-### Step 2: Five-Dimension Assessment (5次元アセスメント)
-Using the `employee-wellbeing` skill framework:
-- **Career Wellbeing** (キャリア充実度): Growth opportunities, skill development, career clarity
-- **Social Wellbeing** (社会的つながり): Team dynamics, psychological safety, belonging
-- **Financial Wellbeing** (経済的安定): Compensation satisfaction, financial security, equity participation
-- **Physical Wellbeing** (身体的健康): Work-life balance, overtime, health support
-- **Community Wellbeing** (帰属意識): Mission alignment, organizational pride, advocacy
+### ステップ2：5次元アセスメント
+`employee-wellbeing` スキルフレームワークを使用：
+- **キャリア充実度**: 成長機会、スキル開発、キャリアの明確さ
+- **社会的つながり**: チームダイナミクス、心理的安全性、帰属意識
+- **経済的安定**: 報酬満足度、経済的安心感、エクイティ参加
+- **身体的健康**: ワークライフバランス、残業、健康支援
+- **組織帰属感**: ミッションとの一致、組織への誇り、推奨意向
 
-Score each dimension 1-5 with data quality labels:
-- `[E]` Evidence: Based on actual company data
-- `[A]` Assumption: Based on industry benchmarks or company profile inference
-- `[?]` Unknown: No data — flag as gap requiring collection
+各次元を1-5で評価し、データ品質ラベルを付与：
+- `[E]` エビデンス: 実際の企業データに基づく
+- `[A]` 仮定: 業界ベンチマークまたは企業プロフィールからの推定
+- `[?]` 不明: データなし -- 収集が必要なギャップとして記録
 
-### Step 3: Employee Segmentation (従業員セグメント分析)
-- Segment employees by relevant dimensions (role, tenure, generation, work style)
-- Identify which segments have the largest wellbeing gaps
-- Map segment-specific needs to intervention types
-- Prioritize segments with highest business impact (e.g., highest turnover, hardest to replace)
+### ステップ3：従業員セグメント分析
+- 関連する軸で社員をセグメント化（職種、在籍年数、世代、勤務形態）
+- どのセグメントが最大のウェルビーイングギャップを抱えているか特定
+- セグメント固有のニーズを施策タイプにマッピング
+- 事業インパクトが最も高いセグメントを優先（例：離職率最高、代替が最も困難）
 
-### Step 4: Intervention Design (施策設計)
-For each priority gap:
-- Design light → medium → heavy interventions (experiment ladder)
-- Estimate cost in yen ranges (not false precision)
-- Define success criteria BEFORE implementation (non-negotiable)
-- Assign ownership (specific role, not "HR")
-- Identify risks and mitigation
+### ステップ4：施策設計
+優先ギャップごとに：
+- ライト → ミドル → ヘビーの施策を設計（実験ラダー）
+- コストを円の範囲で見積もる（偽の精度は不要）
+- 実施前に成功基準を定義（絶対原則）
+- 責任者を指名（「HR」ではなく具体的な役職）
+- リスクと軽減策を特定
 
-### Step 5: ROI + VOI Projection (投資対効果の予測)
-- Calculate expected financial returns (turnover cost savings, productivity gains, healthcare cost reduction)
-- Label all projections as assumptions with confidence levels
-- Include VOI metrics (employer brand, engagement, culture)
-- Benchmark against industry data: 95% of companies measuring wellness ROI see positive returns, median $2+ per $1 invested
+### ステップ5：ROI + VOI予測
+- 期待される財務リターンを計算（離職コスト削減、生産性向上、医療費削減）
+- すべての予測を確信度付きの仮定としてラベル付け
+- VOI指標も含める（雇用ブランド、エンゲージメント、文化）
+- 業界データとベンチマーク比較：ウェルネスROIを測定する企業の95%がプラスリターン、中央値で投資1円あたり2円以上
 
-### Step 6: Implementation Roadmap (実行ロードマップ)
-- Phase 1 (Month 1-3): Quick wins + measurement baseline
-- Phase 2 (Month 4-6): Strategic intervention pilots
-- Phase 3 (Month 7-12): Scale + first ROI reporting
-- Phase 4 (Year 2+): Continuous improvement + certification pursuit
+### ステップ6：実行ロードマップ
+- フェーズ1（1-3ヶ月目）：クイックウィン + 測定ベースライン構築
+- フェーズ2（4-6ヶ月目）：戦略的施策のパイロット
+- フェーズ3（7-12ヶ月目）：全社展開 + 初回ROI報告
+- フェーズ4（2年目以降）：継続的改善 + 認定取得
 
-### Step 7: Devil's Advocate Review (デビルズアドボケート・レビュー)
-Mandatory critical review covering:
-- Are ROI projections realistic or optimistic?
-- Are cultural factors adequately addressed?
-- What implementation risks are being underestimated?
-- Is the program addressing root causes or just symptoms?
-- Are there privacy/legal compliance gaps?
-- What could cause the program to fail silently?
+### ステップ7：デビルズアドボケート・レビュー
+以下をカバーする必須の批判的レビュー：
+- ROI予測は現実的か、楽観的か？
+- 文化的要因は十分に考慮されているか？
+- どの実装リスクが過小評価されているか？
+- 施策は根本原因に対処しているか、症状だけか？
+- プライバシー/法令遵守のギャップはないか？
+- 施策が静かに失敗する原因は何か？
 
-## Expected Output
+## 期待される出力
 
 ```markdown
-# Employee Wellbeing Strategy: [Company/Topic]
-## Date: YYYY-MM-DD
+# ウェルビーイング戦略: [企業名/トピック]
+## 作成日: YYYY-MM-DD
 
-## Executive Summary
-[FATAL FLAW] if applicable
-[2-3 sentence overview: current state, top priority, expected impact]
+## エグゼクティブサマリー
+[致命的欠陥] 該当する場合
+[2-3文の概要：現状、最優先事項、期待されるインパクト]
 
-## Organization Profile
-[Company details, current programs, available data]
+## 組織プロフィール
+[企業詳細、現行施策、利用可能データ]
 
-## Five-Dimension Wellbeing Scorecard
-| Dimension | Score | Data Quality | Key Finding | Priority |
-|-----------|-------|-------------|-------------|----------|
-| Career | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
-| Social | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
-| Financial | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
-| Physical | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
-| Community | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
+## 5次元ウェルビーイング・スコアカード
+| 次元 | スコア | データ品質 | 主要な発見 | 優先度 |
+|------|--------|-----------|-----------|--------|
+| キャリア | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
+| 社会的 | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
+| 経済的 | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
+| 身体的 | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
+| 帰属感 | X/5 | [E]/[A]/[?] | ... | P1/P2/P3 |
 
-## Employee Segments Analysis
-[Segment-specific findings and needs]
+## 従業員セグメント分析
+[セグメント固有の発見とニーズ]
 
-## Recommended Interventions
-### Quick Wins (0-3 months)
-1. [Intervention] — Cost: ¥X / Success: [criteria] / Owner: [role]
+## 推奨施策
+### クイックウィン（0-3ヶ月）
+1. [施策] -- コスト: ¥X / 成功基準: [基準] / 責任者: [役職]
 
-### Strategic Investments (3-12 months)
-1. [Intervention] — Cost: ¥X / Success: [criteria] / Owner: [role]
+### 戦略的投資（3-12ヶ月）
+1. [施策] -- コスト: ¥X / 成功基準: [基準] / 責任者: [役職]
 
-## ROI Projection
-[Financial model with labeled assumptions]
-Expected ROI: X:1 ratio over [timeframe]
+## ROI予測
+[仮定ラベル付きの財務モデル]
+期待ROI: X:1（[期間]）
 
-## Measurement Framework
-| Frequency | Metrics | Target |
-|-----------|---------|--------|
-| Monthly | [Leading indicators] | ... |
-| Quarterly | [Lagging indicators] | ... |
-| Annually | [Business impact] | ... |
+## 測定フレームワーク
+| 頻度 | 指標 | 目標値 |
+|------|------|--------|
+| 月次 | [先行指標] | ... |
+| 四半期 | [遅行指標] | ... |
+| 年次 | [事業インパクト] | ... |
 
-## Implementation Roadmap
-[Phase 1-4 with milestones]
+## 実行ロードマップ
+[フェーズ1-4とマイルストーン]
 
-## Devil's Advocate Review
-### CRITICAL Findings
-[Findings that could derail the strategy]
+## デビルズアドボケート・レビュー
+### CRITICAL（重大）
+[戦略を頓挫させ得る発見]
 
-### HIGH Findings
-[Significant risks or blind spots]
+### HIGH（高）
+[重大なリスクまたは盲点]
 
-### Recommendations
-[Specific actions to address findings]
+### 提案
+[発見に対処する具体的アクション]
 
-## Data Gaps & Next Steps
-[What to collect, how, and by when]
+## データギャップと次のステップ
+[収集すべきデータ、方法、期限]
 
 ---
-Data Quality: [E] Evidence / [A] Assumption / [?] Unknown
-Overall Confidence: High / Medium / Low
+データ品質: [E] エビデンス / [A] 仮定 / [?] 不明
+全体確信度: 高 / 中 / 低
 ```
 
-## Rules (変更不可のルール)
+## ルール（変更不可）
 
-1. **Five dimensions mandatory**: All five wellbeing dimensions must be assessed, even with limited data. Unknown dimensions marked `[?]` with data collection plan.
-2. **Success criteria before interventions**: No intervention recommended without pre-defined success/failure criteria. Same discipline as experiment cards.
-3. **ROI honesty**: All financial projections labeled as assumptions with confidence levels. Never present estimates as facts. If ROI cannot be estimated, say so.
-4. **Cultural awareness required**: Every strategy must address Japan-specific factors (建前/本音, 稟議, 残業文化, 個人情報保護法). Strategies that ignore cultural context will fail.
-5. **Manager role addressed**: Every intervention must specify how managers are involved. Manager bypass = intervention failure.
-6. **Privacy first**: No recommendation that requires individual health data exposure. Aggregate only. Voluntary participation for all programs.
-7. **Devil's advocate non-negotiable**: Strategy must be stress-tested. Zero critical findings from devil's advocate = not actually reviewing.
-8. **Cheap before expensive**: Recommend the lightest intervention that tests the assumption. Do not jump to expensive programs without validating the underlying hypothesis.
+1. **5次元必須**: データが限られていても5つのウェルビーイング次元すべてを評価する。不明な次元は `[?]` を付けデータ収集計画を示す。
+2. **施策の前に成功基準**: 事前に成功/失敗基準を定義しない施策は推奨しない。実験カードと同じ規律。
+3. **ROIの誠実さ**: すべての財務予測に仮定ラベルと確信度を付与する。推定を事実として提示しない。ROI推定が不可能なら正直にそう述べる。
+4. **文化的認識必須**: すべての戦略が日本特有の要因（建前/本音、稟議、残業文化、個人情報保護法）に対応する。文化コンテキストを無視した戦略は失敗する。
+5. **マネージャーの役割を明示**: すべての施策でマネージャーの関与方法を明記する。管理職スキップ = 施策の失敗。
+6. **プライバシーファースト**: 個人の健康データ露出を伴う推奨はしない。集約データのみ。すべてのプログラムは任意参加。
+7. **デビルズアドボケート必須**: 戦略はストレステストされなければならない。デビルズアドボケートからの重大指摘がゼロ = 実質的にレビューしていない。
+8. **安価なものから**: 仮説を検証する最もライトな施策を推奨する。根底の仮説を検証せずに高額施策に飛びつかない。

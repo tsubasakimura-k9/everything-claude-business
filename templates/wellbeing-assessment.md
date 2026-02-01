@@ -1,303 +1,303 @@
-# Wellbeing Assessment Report / ウェルビーイング評価レポート
+# ウェルビーイング評価レポート
 
-> Measure before you intervene. Define success before you invest. Iterate based on evidence, not hope.
-> Inspired by the five-dimension Gallup framework, adapted for Japanese business context.
+> 施策の前に測定せよ。投資の前に成功を定義せよ。希望ではなくエビデンスに基づいて改善せよ。
+> Gallupの5次元フレームワークに基づき、日本のビジネスコンテキストに適応。
 
-**Data Quality Markers / データ品質マーカー:**
-- `[E]` = Evidence-based (エビデンスあり — 実データに基づく)
-- `[A]` = Assumption (仮定 — 業界ベンチマークまたは推定に基づく)
-- `[?]` = Unknown (不明 — データ収集が必要)
+**データ品質マーカー:**
+- `[E]` = エビデンスあり（実データに基づく）
+- `[A]` = 仮定（業界ベンチマークまたは推定に基づく）
+- `[?]` = 不明（データ収集が必要）
 
-**Confidence Levels / 確信度:**
-- `High` = Based on multiple data sources with consistent signals
-- `Medium` = Based on limited data or single source
-- `Low` = Primarily assumptions; requires validation
-
----
-
-## メタデータ / Metadata
-
-| Field | Value |
-|-------|-------|
-| **レポート名 / Report Name** | [FILL: company or topic name] |
-| **作成日 / Date Created** | [FILL: YYYY-MM-DD] |
-| **対象企業 / Target Company** | [FILL: company name and description] |
-| **従業員数 / Employee Count** | [FILL: number] |
-| **業種 / Industry** | [FILL: industry sector] |
-| **レポート作成者 / Author** | [FILL: who created this assessment] |
-| **全体確信度 / Overall Confidence** | [FILL: High / Medium / Low] |
+**確信度:**
+- `高` = 複数のデータソースから一貫したシグナルに基づく
+- `中` = 限定的なデータまたは単一ソースに基づく
+- `低` = 主に仮定に基づく。検証が必要
 
 ---
 
-## エグゼクティブサマリー / Executive Summary
+## メタデータ
 
-> 2-3 sentences summarizing the overall wellbeing state, top priority, and expected impact of recommended actions.
-
-**[FATAL FLAW]** [FILL: If any critical issue exists (legal compliance risk, toxic culture, etc.), state it here FIRST. Delete this line if no fatal flaws found.]
-
-[FILL: Current state summary — what is working, what is not, what is the biggest opportunity]
-
-[FILL: Top recommendation and expected impact]
-
----
-
-## 組織プロフィール / Organization Profile
-
-| Attribute | Value | Data Quality |
-|-----------|-------|-------------|
-| **企業規模 / Company Size** | [FILL] | |
-| **業種 / Industry** | [FILL] | |
-| **企業ステージ / Stage** | [FILL: Startup / Growth / Mature] | |
-| **現在の離職率 / Current Turnover Rate** | [FILL: X% (voluntary)] | [E]/[A]/[?] |
-| **業界平均離職率 / Industry Avg Turnover** | [FILL: X%] | [E]/[A]/[?] |
-| **平均残業時間 / Avg Overtime Hours** | [FILL: X hours/month] | [E]/[A]/[?] |
-| **既存施策 / Existing Programs** | [FILL: list current wellbeing/benefits programs] | |
-| **エンゲージメントサーベイ / Engagement Survey** | [FILL: last conducted date, tool used, key results] | [E]/[A]/[?] |
-| **健康経営認定 / Health Mgmt Certification** | [FILL: current status] | |
+| 項目 | 値 |
+|------|---|
+| **レポート名** | [記入: 企業名またはトピック名] |
+| **作成日** | [記入: YYYY-MM-DD] |
+| **対象企業** | [記入: 企業名と説明] |
+| **従業員数** | [記入: 人数] |
+| **業種** | [記入: 業種] |
+| **レポート作成者** | [記入: 作成者] |
+| **全体確信度** | [記入: 高 / 中 / 低] |
 
 ---
 
-## 5次元ウェルビーイング・スコアカード / Five-Dimension Wellbeing Scorecard
+## エグゼクティブサマリー
 
-| Dimension | 日本語 | Score (1-5) | Data Quality | Key Finding | Priority |
-|-----------|--------|-------------|-------------|-------------|----------|
-| **Career** | キャリア充実度 | [FILL] | [E]/[A]/[?] | [FILL: one-line finding] | [FILL: P1/P2/P3] |
-| **Social** | 社会的つながり | [FILL] | [E]/[A]/[?] | [FILL: one-line finding] | [FILL: P1/P2/P3] |
-| **Financial** | 経済的安定 | [FILL] | [E]/[A]/[?] | [FILL: one-line finding] | [FILL: P1/P2/P3] |
-| **Physical** | 身体的健康 | [FILL] | [E]/[A]/[?] | [FILL: one-line finding] | [FILL: P1/P2/P3] |
-| **Community** | 帰属意識 | [FILL] | [E]/[A]/[?] | [FILL: one-line finding] | [FILL: P1/P2/P3] |
+> ウェルビーイングの全体的な状態、最優先事項、推奨アクションの期待効果を2-3文で要約する。
 
-**Overall Wellbeing Score**: [FILL: average] / 5.0
+**[致命的欠陥]** [記入: 重大な問題がある場合（法令遵守リスク、有害な文化等）、ここに最初に記載する。致命的欠陥がなければこの行を削除。]
 
-### 各次元の詳細 / Dimension Details
+[記入: 現状サマリー -- うまくいっていること、いっていないこと、最大の改善機会]
 
-#### Career Wellbeing (キャリア充実度) — Score: [FILL]/5
-
-| Indicator | Current State | Benchmark | Gap |
-|-----------|--------------|-----------|-----|
-| Career ladder clarity | [FILL] | [FILL] | [FILL] |
-| Internal mobility rate | [FILL] | [FILL] | [FILL] |
-| Learning/development satisfaction | [FILL] | [FILL] | [FILL] |
-| Manager coaching quality | [FILL] | [FILL] | [FILL] |
-
-**Root Cause Analysis**: [FILL: Why is this score what it is?]
-
-#### Social Wellbeing (社会的つながり) — Score: [FILL]/5
-
-| Indicator | Current State | Benchmark | Gap |
-|-----------|--------------|-----------|-----|
-| Team cohesion | [FILL] | [FILL] | [FILL] |
-| Psychological safety | [FILL] | [FILL] | [FILL] |
-| Cross-team collaboration | [FILL] | [FILL] | [FILL] |
-| Loneliness/isolation signals | [FILL] | [FILL] | [FILL] |
-
-**Root Cause Analysis**: [FILL]
-
-#### Financial Wellbeing (経済的安定) — Score: [FILL]/5
-
-| Indicator | Current State | Benchmark | Gap |
-|-----------|--------------|-----------|-----|
-| Compensation satisfaction | [FILL] | [FILL] | [FILL] |
-| Financial stress indicators | [FILL] | [FILL] | [FILL] |
-| Benefits utilization rate | [FILL] | [FILL] | [FILL] |
-| Equity/ownership participation | [FILL] | [FILL] | [FILL] |
-
-**Root Cause Analysis**: [FILL]
-
-#### Physical Wellbeing (身体的健康) — Score: [FILL]/5
-
-| Indicator | Current State | Benchmark | Gap |
-|-----------|--------------|-----------|-----|
-| Average overtime hours/month | [FILL] | [FILL] | [FILL] |
-| Sick days / absenteeism rate | [FILL] | [FILL] | [FILL] |
-| Presenteeism signals | [FILL] | [FILL] | [FILL] |
-| Health check compliance rate | [FILL] | [FILL] | [FILL] |
-
-**Root Cause Analysis**: [FILL]
-
-#### Community Wellbeing (帰属意識) — Score: [FILL]/5
-
-| Indicator | Current State | Benchmark | Gap |
-|-----------|--------------|-----------|-----|
-| eNPS (Employee Net Promoter Score) | [FILL] | [FILL] | [FILL] |
-| Mission alignment | [FILL] | [FILL] | [FILL] |
-| Referral hiring rate | [FILL] | [FILL] | [FILL] |
-| Voluntary turnover rate | [FILL] | [FILL] | [FILL] |
-
-**Root Cause Analysis**: [FILL]
+[記入: 最優先の提案と期待されるインパクト]
 
 ---
 
-## 従業員セグメント分析 / Employee Segments Analysis
+## 組織プロフィール
 
-| Segment | Size | Top Wellbeing Gap | Specific Need | Priority |
-|---------|------|-------------------|---------------|----------|
-| [FILL: segment 1] | [FILL] | [FILL] | [FILL] | [FILL] |
-| [FILL: segment 2] | [FILL] | [FILL] | [FILL] | [FILL] |
-| [FILL: segment 3] | [FILL] | [FILL] | [FILL] | [FILL] |
-
----
-
-## 推奨施策 / Recommended Interventions
-
-### クイックウィン / Quick Wins (0-3 months)
-
-| # | Intervention | Dimension | Target Segment | Cost | Success Criteria | Owner |
-|---|-------------|-----------|----------------|------|-----------------|-------|
-| 1 | [FILL] | [FILL] | [FILL] | ¥[FILL] | [FILL: quantitative threshold] | [FILL] |
-| 2 | [FILL] | [FILL] | [FILL] | ¥[FILL] | [FILL: quantitative threshold] | [FILL] |
-| 3 | [FILL] | [FILL] | [FILL] | ¥[FILL] | [FILL: quantitative threshold] | [FILL] |
-
-### 戦略的投資 / Strategic Investments (3-12 months)
-
-| # | Intervention | Dimension | Target Segment | Cost | Success Criteria | Owner |
-|---|-------------|-----------|----------------|------|-----------------|-------|
-| 1 | [FILL] | [FILL] | [FILL] | ¥[FILL] | [FILL: quantitative threshold] | [FILL] |
-| 2 | [FILL] | [FILL] | [FILL] | ¥[FILL] | [FILL: quantitative threshold] | [FILL] |
-
-### 見送り / Deprioritized (with rationale)
-
-| # | Intervention | Reason for Deprioritizing |
-|---|-------------|--------------------------|
-| 1 | [FILL] | [FILL: why this is not a priority now] |
+| 属性 | 値 | データ品質 |
+|------|---|-----------|
+| **企業規模** | [記入] | |
+| **業種** | [記入] | |
+| **企業ステージ** | [記入: スタートアップ / 成長期 / 成熟期] | |
+| **現在の離職率** | [記入: X%（自発的）] | [E]/[A]/[?] |
+| **業界平均離職率** | [記入: X%] | [E]/[A]/[?] |
+| **平均残業時間** | [記入: 月X時間] | [E]/[A]/[?] |
+| **既存施策** | [記入: 現在のウェルビーイング/福利厚生施策のリスト] | |
+| **エンゲージメントサーベイ** | [記入: 最終実施日、使用ツール、主要結果] | [E]/[A]/[?] |
+| **健康経営認定** | [記入: 現在のステータス] | |
 
 ---
 
-## ROI予測 / ROI Projection
+## 5次元ウェルビーイング・スコアカード
 
-> All projections are estimates. Assumptions are labeled. Do not treat as guaranteed returns.
+| 次元 | スコア（1-5） | データ品質 | 主要な発見 | 優先度 |
+|------|---------------|-----------|-----------|--------|
+| **キャリア充実度** | [記入] | [E]/[A]/[?] | [記入: 一行の発見] | [記入: P1/P2/P3] |
+| **社会的つながり** | [記入] | [E]/[A]/[?] | [記入: 一行の発見] | [記入: P1/P2/P3] |
+| **経済的安定** | [記入] | [E]/[A]/[?] | [記入: 一行の発見] | [記入: P1/P2/P3] |
+| **身体的健康** | [記入] | [E]/[A]/[?] | [記入: 一行の発見] | [記入: P1/P2/P3] |
+| **組織帰属感** | [記入] | [E]/[A]/[?] | [記入: 一行の発見] | [記入: P1/P2/P3] |
 
-### コスト / Costs
+**総合ウェルビーイングスコア**: [記入: 平均値] / 5.0
 
-| Item | Year 1 Cost | Ongoing Annual Cost | Data Quality |
-|------|------------|--------------------|----|
-| [FILL: intervention 1] | ¥[FILL] | ¥[FILL] | [A] |
-| [FILL: intervention 2] | ¥[FILL] | ¥[FILL] | [A] |
-| **Total** | **¥[FILL]** | **¥[FILL]** | |
+### 各次元の詳細
 
-### 期待リターン / Expected Returns
+#### キャリア充実度 — スコア: [記入]/5
 
-| Return Category | Calculation | Annual Value | Data Quality |
-|----------------|-------------|-------------|-------------|
-| Turnover cost reduction | [FILL: X fewer departures × ¥Y replacement cost] | ¥[FILL] | [A] |
-| Productivity improvement | [FILL: X% gain × total payroll] | ¥[FILL] | [A] |
-| Absenteeism reduction | [FILL: X fewer sick days × daily cost] | ¥[FILL] | [A] |
-| Healthcare cost savings | [FILL: per-employee savings × headcount] | ¥[FILL] | [A] |
-| **Total Expected Return** | | **¥[FILL]** | |
+| 指標 | 現状 | ベンチマーク | ギャップ |
+|------|------|-------------|---------|
+| キャリアラダーの明確さ | [記入] | [記入] | [記入] |
+| 社内異動率 | [記入] | [記入] | [記入] |
+| 学習・能力開発の満足度 | [記入] | [記入] | [記入] |
+| マネージャーのコーチング品質 | [記入] | [記入] | [記入] |
 
-### ROI計算 / ROI Calculation
+**根本原因分析**: [記入: このスコアの理由は何か？]
+
+#### 社会的つながり — スコア: [記入]/5
+
+| 指標 | 現状 | ベンチマーク | ギャップ |
+|------|------|-------------|---------|
+| チーム結束度 | [記入] | [記入] | [記入] |
+| 心理的安全性 | [記入] | [記入] | [記入] |
+| 部門横断の連携 | [記入] | [記入] | [記入] |
+| 孤立感・孤独感のシグナル | [記入] | [記入] | [記入] |
+
+**根本原因分析**: [記入]
+
+#### 経済的安定 — スコア: [記入]/5
+
+| 指標 | 現状 | ベンチマーク | ギャップ |
+|------|------|-------------|---------|
+| 報酬満足度 | [記入] | [記入] | [記入] |
+| 経済的ストレス指標 | [記入] | [記入] | [記入] |
+| 福利厚生利用率 | [記入] | [記入] | [記入] |
+| エクイティ/持株参加 | [記入] | [記入] | [記入] |
+
+**根本原因分析**: [記入]
+
+#### 身体的健康 — スコア: [記入]/5
+
+| 指標 | 現状 | ベンチマーク | ギャップ |
+|------|------|-------------|---------|
+| 平均残業時間（月） | [記入] | [記入] | [記入] |
+| 病欠日数 / 欠勤率 | [記入] | [記入] | [記入] |
+| プレゼンティーイズムのシグナル | [記入] | [記入] | [記入] |
+| 健康診断受診率 | [記入] | [記入] | [記入] |
+
+**根本原因分析**: [記入]
+
+#### 組織帰属感 — スコア: [記入]/5
+
+| 指標 | 現状 | ベンチマーク | ギャップ |
+|------|------|-------------|---------|
+| eNPS（従業員NPS） | [記入] | [記入] | [記入] |
+| ミッションとの一致度 | [記入] | [記入] | [記入] |
+| リファラル採用率 | [記入] | [記入] | [記入] |
+| 自発的離職率 | [記入] | [記入] | [記入] |
+
+**根本原因分析**: [記入]
+
+---
+
+## 従業員セグメント分析
+
+| セグメント | 人数 | 最大のウェルビーイングギャップ | 固有のニーズ | 優先度 |
+|------------|------|-------------------------------|-------------|--------|
+| [記入: セグメント1] | [記入] | [記入] | [記入] | [記入] |
+| [記入: セグメント2] | [記入] | [記入] | [記入] | [記入] |
+| [記入: セグメント3] | [記入] | [記入] | [記入] | [記入] |
+
+---
+
+## 推奨施策
+
+### クイックウィン（0-3ヶ月）
+
+| # | 施策 | 対象次元 | 対象セグメント | コスト | 成功基準 | 責任者 |
+|---|------|----------|---------------|--------|----------|--------|
+| 1 | [記入] | [記入] | [記入] | ¥[記入] | [記入: 定量的閾値] | [記入] |
+| 2 | [記入] | [記入] | [記入] | ¥[記入] | [記入: 定量的閾値] | [記入] |
+| 3 | [記入] | [記入] | [記入] | ¥[記入] | [記入: 定量的閾値] | [記入] |
+
+### 戦略的投資（3-12ヶ月）
+
+| # | 施策 | 対象次元 | 対象セグメント | コスト | 成功基準 | 責任者 |
+|---|------|----------|---------------|--------|----------|--------|
+| 1 | [記入] | [記入] | [記入] | ¥[記入] | [記入: 定量的閾値] | [記入] |
+| 2 | [記入] | [記入] | [記入] | ¥[記入] | [記入: 定量的閾値] | [記入] |
+
+### 見送り（理由付き）
+
+| # | 施策 | 見送りの理由 |
+|---|------|-------------|
+| 1 | [記入] | [記入: 今優先すべきでない理由] |
+
+---
+
+## ROI予測
+
+> すべての予測は推定値である。仮定にはラベルを付与。保証されたリターンとして扱わないこと。
+
+### コスト
+
+| 項目 | 初年度コスト | 年間運営コスト | データ品質 |
+|------|-------------|---------------|-----------|
+| [記入: 施策1] | ¥[記入] | ¥[記入] | [A] |
+| [記入: 施策2] | ¥[記入] | ¥[記入] | [A] |
+| **合計** | **¥[記入]** | **¥[記入]** | |
+
+### 期待リターン
+
+| リターン区分 | 計算式 | 年間価値 | データ品質 |
+|-------------|--------|----------|-----------|
+| 離職コスト削減 | [記入: X人の離職減少 × ¥Y代替コスト] | ¥[記入] | [A] |
+| 生産性向上 | [記入: X%の向上 × 総人件費] | ¥[記入] | [A] |
+| 欠勤削減 | [記入: X日の病欠減少 × 1日あたりコスト] | ¥[記入] | [A] |
+| 医療費削減 | [記入: 1人あたり削減額 × 従業員数] | ¥[記入] | [A] |
+| **期待リターン合計** | | **¥[記入]** | |
+
+### ROI計算
 
 ```
-Year 1 ROI = (Total Returns - Total Costs) / Total Costs × 100 = [FILL]%
-ROI Ratio = [FILL]:1
+初年度ROI = (リターン合計 - コスト合計) / コスト合計 × 100 = [記入]%
+ROI比率 = [記入]:1
 
-Industry Benchmark: Median 2:1 return (Wellhub 2024)
-Confidence: [FILL: High / Medium / Low]
-Key Assumption: [FILL: the single biggest assumption in this projection]
+業界ベンチマーク: 中央値2:1のリターン（Wellhub 2024）
+確信度: [記入: 高 / 中 / 低]
+最大の前提: [記入: この予測における最大の仮定]
 ```
 
 ---
 
-## 測定フレームワーク / Measurement Framework
+## 測定フレームワーク
 
-### 月次 / Monthly (Leading Indicators)
+### 月次（先行指標）
 
-| Metric | Baseline | Target (6mo) | Target (12mo) | Collection Method |
-|--------|----------|-------------|--------------|-------------------|
-| Pulse survey score (overall) | [FILL] | [FILL] | [FILL] | [FILL] |
-| Program participation rate | [FILL] | [FILL] | [FILL] | [FILL] |
-| Manager 1-on-1 completion | [FILL] | [FILL] | [FILL] | [FILL] |
-| Overtime hours (avg) | [FILL] | [FILL] | [FILL] | [FILL] |
+| 指標 | ベースライン | 目標（6ヶ月） | 目標（12ヶ月） | 収集方法 |
+|------|-------------|-------------|--------------|----------|
+| パルスサーベイスコア（総合） | [記入] | [記入] | [記入] | [記入] |
+| 施策参加率 | [記入] | [記入] | [記入] | [記入] |
+| マネージャー1on1実施率 | [記入] | [記入] | [記入] | [記入] |
+| 残業時間（平均） | [記入] | [記入] | [記入] | [記入] |
 
-### 四半期 / Quarterly (Lagging Indicators)
+### 四半期（遅行指標）
 
-| Metric | Baseline | Target (6mo) | Target (12mo) | Collection Method |
-|--------|----------|-------------|--------------|-------------------|
-| Voluntary turnover rate | [FILL] | [FILL] | [FILL] | [FILL] |
-| eNPS | [FILL] | [FILL] | [FILL] | [FILL] |
-| Sick days per employee | [FILL] | [FILL] | [FILL] | [FILL] |
-| Internal mobility rate | [FILL] | [FILL] | [FILL] | [FILL] |
+| 指標 | ベースライン | 目標（6ヶ月） | 目標（12ヶ月） | 収集方法 |
+|------|-------------|-------------|--------------|----------|
+| 自発的離職率 | [記入] | [記入] | [記入] | [記入] |
+| eNPS | [記入] | [記入] | [記入] | [記入] |
+| 1人あたり病欠日数 | [記入] | [記入] | [記入] | [記入] |
+| 社内異動率 | [記入] | [記入] | [記入] | [記入] |
 
-### 年次 / Annual (Business Impact)
+### 年次（事業インパクト）
 
-| Metric | Baseline | Target | Collection Method |
-|--------|----------|--------|-------------------|
-| Wellbeing ROI ratio | N/A | [FILL]:1 | Finance + HR data |
-| OpenWork / employer brand score | [FILL] | [FILL] | Platform data |
-| 健康経営 certification status | [FILL] | [FILL] | METI application |
-| Recruitment cost per hire | [FILL] | [FILL] | HR data |
-
----
-
-## 実行ロードマップ / Implementation Roadmap
-
-### Phase 1: Foundation (Month 1-3)
-- [ ] Deploy baseline measurement (pulse survey + HR data collection)
-- [ ] Implement quick win interventions
-- [ ] Train managers on wellbeing role
-- [ ] Establish monthly reporting cadence
-- **Exit Criteria**: Baseline scores established for all 5 dimensions, quick wins launched
-
-### Phase 2: Pilot (Month 4-6)
-- [ ] Launch strategic intervention pilots (1-2 teams)
-- [ ] First quarterly measurement cycle completed
-- [ ] Pilot results analyzed and documented
-- [ ] Go/no-go decision on scaling pilots
-- **Exit Criteria**: At least one pilot shows statistically meaningful improvement
-
-### Phase 3: Scale (Month 7-12)
-- [ ] Successful pilots expanded company-wide
-- [ ] First annual ROI report to leadership
-- [ ] Program adjustments based on 6-month data
-- [ ] 健康経営優良法人 application prepared (if applicable)
-- **Exit Criteria**: ROI demonstrated, measurement system operational
-
-### Phase 4: Continuous Improvement (Year 2+)
-- [ ] Annual strategy refresh based on accumulated data
-- [ ] Benchmark against industry and certification standards
-- [ ] Evolve programs based on employee lifecycle changes
-- [ ] Share learnings externally (employer brand building)
-- **Exit Criteria**: Wellbeing embedded in business operations (not a separate "program")
+| 指標 | ベースライン | 目標 | 収集方法 |
+|------|-------------|------|----------|
+| ウェルビーイングROI比率 | N/A | [記入]:1 | 財務 + 人事データ |
+| OpenWork/雇用ブランドスコア | [記入] | [記入] | プラットフォームデータ |
+| 健康経営認定ステータス | [記入] | [記入] | 経産省申請 |
+| 1人あたり採用コスト | [記入] | [記入] | 人事データ |
 
 ---
 
-## リスクと軽減策 / Risks and Mitigation
+## 実行ロードマップ
 
-| # | Risk | Likelihood | Impact | Mitigation |
-|---|------|-----------|--------|------------|
-| 1 | [FILL: e.g., Low manager buy-in] | H/M/L | H/M/L | [FILL] |
-| 2 | [FILL: e.g., Survey fatigue] | H/M/L | H/M/L | [FILL] |
-| 3 | [FILL: e.g., Budget cuts mid-program] | H/M/L | H/M/L | [FILL] |
+### フェーズ1：基盤構築（1-3ヶ月目）
+- [ ] ベースライン測定の導入（パルスサーベイ + 人事データ収集）
+- [ ] クイックウィン施策の実施
+- [ ] マネージャー向けウェルビーイング研修
+- [ ] 月次報告サイクルの確立
+- **終了基準**: 5次元すべてのベースラインスコアが確立、クイックウィンが開始
 
----
+### フェーズ2：パイロット（4-6ヶ月目）
+- [ ] 戦略的施策のパイロット開始（1-2チーム）
+- [ ] 初回四半期測定サイクルの完了
+- [ ] パイロット結果の分析と文書化
+- [ ] 全社展開のGo/No-Go判断
+- **終了基準**: 少なくとも1つのパイロットが統計的に有意な改善を示す
 
-## デビルズアドボケート・レビュー / Devil's Advocate Review
+### フェーズ3：全社展開（7-12ヶ月目）
+- [ ] 成功したパイロットの全社展開
+- [ ] 経営層への初回年次ROIレポート
+- [ ] 6ヶ月データに基づく施策調整
+- [ ] 健康経営優良法人申請の準備（該当する場合）
+- **終了基準**: ROIが実証され、測定システムが稼働中
 
-> This section is completed by the devil-advocate agent after the strategy is drafted.
-
-### CRITICAL Findings (実行ブロッカー)
-[FILL: Issues that must be resolved before proceeding]
-
-### HIGH Findings (要対応)
-[FILL: Significant risks or blind spots that should be addressed]
-
-### MEDIUM Findings (改善推奨)
-[FILL: Areas for improvement that would strengthen the strategy]
-
-### Recommendations
-[FILL: Specific actions to address findings]
-
----
-
-## データギャップと次のステップ / Data Gaps & Next Steps
-
-| Data Gap | Why It Matters | How to Collect | Timeline |
-|----------|---------------|----------------|----------|
-| [FILL] | [FILL] | [FILL] | [FILL] |
-| [FILL] | [FILL] | [FILL] | [FILL] |
+### フェーズ4：継続的改善（2年目以降）
+- [ ] 蓄積されたデータに基づく年次戦略リフレッシュ
+- [ ] 業界・認定基準とのベンチマーク比較
+- [ ] 社員ライフサイクルの変化に応じたプログラムの進化
+- [ ] 外部への学びの発信（雇用ブランド構築）
+- **終了基準**: ウェルビーイングが事業運営に組み込まれている（独立した「プログラム」ではない）
 
 ---
 
-**Data Quality Legend**: `[E]` Evidence-based / `[A]` Assumption / `[?]` Unknown
-**Overall Assessment Confidence**: [FILL: High / Medium / Low]
-**Next Review Date**: [FILL: YYYY-MM-DD]
+## リスクと軽減策
+
+| # | リスク | 発生可能性 | インパクト | 軽減策 |
+|---|--------|-----------|-----------|--------|
+| 1 | [記入: 例：マネージャーの理解不足] | 高/中/低 | 高/中/低 | [記入] |
+| 2 | [記入: 例：サーベイ疲れ] | 高/中/低 | 高/中/低 | [記入] |
+| 3 | [記入: 例：途中での予算削減] | 高/中/低 | 高/中/低 | [記入] |
+
+---
+
+## デビルズアドボケート・レビュー
+
+> このセクションは戦略ドラフト完成後、devil-advocate エージェントが記入する。
+
+### CRITICAL（重大）— 実行ブロッカー
+[記入: 進行前に解決すべき問題]
+
+### HIGH（高）— 要対応
+[記入: 対処すべき重大なリスクまたは盲点]
+
+### MEDIUM（中）— 改善推奨
+[記入: 戦略を強化するための改善領域]
+
+### 提案
+[記入: 発見に対処する具体的アクション]
+
+---
+
+## データギャップと次のステップ
+
+| データギャップ | なぜ重要か | 収集方法 | タイムライン |
+|---------------|-----------|----------|-------------|
+| [記入] | [記入] | [記入] | [記入] |
+| [記入] | [記入] | [記入] | [記入] |
+
+---
+
+**データ品質凡例**: `[E]` エビデンスあり / `[A]` 仮定 / `[?]` 不明
+**全体確信度**: [記入: 高 / 中 / 低]
+**次回レビュー日**: [記入: YYYY-MM-DD]
